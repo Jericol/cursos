@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+  --color: tomato;
+  --color-alt: red;
+  --bh: #000;
+  --tw: #fff;
+}
+
+
+.button {
+    cursor: pointer;
+    padding: 0.5rem 0.75rem;
+    font-weight: 600;
+    border-radius: 0.25rem;
+    background: var(--color);
+    color: white;
+    border: 2px solid var(--color);
+    -webkit-border-radius: 0.25rem;
+    -moz-border-radius: 0.25rem;
+    -ms-border-radius: 0.25rem;
+    -o-border-radius: 0.25rem;
+}
+
+.button:hover {
+    background: var(--color-alt);
+}
+
+.button.Ghost {
+    background: transparent;
+    color: var(--color);
+}
+
+.button.Ghost:hover {
+    background: var(--color);
+    color: #fff;
+    
+}

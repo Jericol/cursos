@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+  margin: 20px;
+}
+
+.list-item {
+   display: inline-block;
+   padding: 1em;
+   border: 2px solid black;  
+}
+
+.list-content {
+    background: hsl(200, 10%, 10%);
+    color: white;
+    padding: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.alive {
+    color: aqua;
+}

@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins;
+}
+
+.header {
+    background-color: black;
+    width: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+
+}
+
+.submenu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  background: #000;
+  white-space: nowrap;
+  display: none;
+}
+
+.item {
+  position: relative;
+}
+
+.item:hover .submenu {
+    display: block;
+}
+
+.link {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    color: #fff;
+    text-decoration: none;
+    width: 100%;
+}
+
+.link:hover {
+    background: grey;
+}

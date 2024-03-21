@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="p-8">
+    <header id="header" class="grid grid-cols-10 container mx-auto mb-6">
+      <!-- logo -->
+      <div class="col-span-3">
+         <img src="/img/logo.svg" alt="logo-edteam" class="logo">
+      </div>
+      <!-- menu -->
+      <div class="col-span-7">
+        <nav class="flex justify-end menu">
+            <ul class="flex gap-3">
+                <li><a href="/" class="selected">Inicio</a></li>
+                <li><a href="/servicios.html">Nuestros servicios</a></li>
+                <li><a href="/clientes.html">Clientes</a></li>
+                <li><a href="/contactenos.html">Contactenos</a></li>
+            </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- banner -->
+    <div id="banner" class="conatiner mx-auto mb-6">
+      <img src="./img/natacion.webp" alt="" />
+    </div>
+    <!-- main -->
+    <div class="container mx-auto mb-8 grid grid-cols-4 gap-8">
+        <main id="main" class="col-span-3 mb-6">
+          <h1 class="title">Academia de natación Los manatis</h1>
+          <p>
+            ¡Nuestra academia ofrece cursos de natación para niños y adolescentes
+            todo el año! Con especialistas en natación que han competido en copas
+            mundiales, ¡nadar nunca había sido tan emocionante! Sumérgete en nuestra
+            piscina y descubre el mundo acuático con nosotros.
+          </p>
+        </main>
+        <aside>
+            <h2 class="subtitle">siguenos en las redes</h2>
+            <div class="flex social">
+              <a href="#"><img src="/img/facebook.png" alt=""></a>
+              <a href="#"><img src="/img/instagram.png" alt=""></a>
+              <a href="#"><img src="/img/linkedin.png" alt=""></a>
+              <a href="#"><img src="/img/tiktok.png" alt=""></a>
+            </div>
+        </aside>
+    </div>
+    <footer id="footer" class="container mx-auto  footer">
+        <p>
+            Academia de natación los manatis <br>
+            Colombia, Bogotá | Contacto: 3102914937
+        </p>
+    </footer>
+  </body>
+</html>

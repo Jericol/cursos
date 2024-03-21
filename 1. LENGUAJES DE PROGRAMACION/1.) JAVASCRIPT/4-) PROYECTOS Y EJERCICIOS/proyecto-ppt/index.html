@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Piedra-papel-tijera</title>
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+            <header>
+                <p>Rock peper scissors</p>
+            </header>
+        <div class="score-box">
+            <div class="score-container">
+                <div class="userlabel label">USER</div>
+                <div class="cpulabel label">CPU</div>
+                <span id="userpoints" class="userpoint points">0</span>
+                <span class="points">:</span>
+                <span id="cpupoints" class="cpupoint points">0</span>
+            </div>
+        </div>
+        <div class="creator">
+            <p id="creator">this was made by leonardo</p>
+            <p id="winner" style="display: none;">
+                User player <span id="userchoice">ex1</span> Cpu played <span id="cpuchoice">ex2</span>, <span id="won">ex3</span> won
+            </p>
+        </div>
+        <div class="picturebox">
+            <div id="rock" class="rock picture"></div>
+            <div id="paper" class="paper picture"></div>
+            <div id="scissors" class="scissors picture"></div>
+        </div>
+        <div class="movebox">
+            <p>Make your move</p>
+        </div>
+        <script src="./js/index.js"></script>
+    </body>
+</html>
